@@ -20,10 +20,11 @@ public class JavaMentorYoutubeApplication  implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        Product product = new Product(null, "name1");
+        Product product = new Product(null, "name1");// new line
         productRepository.save(product);
 
         final List<Product> all = productRepository.findAll();
         System.out.println(all);
+        // new line
     }
 }
