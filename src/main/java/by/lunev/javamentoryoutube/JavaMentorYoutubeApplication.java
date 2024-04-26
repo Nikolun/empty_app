@@ -17,7 +17,7 @@ public class JavaMentorYoutubeApplication  implements CommandLineRunner {
     public static void main(String[] args) {
         SpringApplication.run(JavaMentorYoutubeApplication.class, args);
     }
-    //else new changes
+    //else new changes 2
     @Override
     public void run(String... args) throws Exception {
         Product product = new Product(null, "name1");// new line
